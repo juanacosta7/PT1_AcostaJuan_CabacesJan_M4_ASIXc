@@ -1,0 +1,193 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fotoHeader{
+    width: 30%;
+}
+nav {
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    width: 100%;
+    margin-bottom: 25px;
+    padding: 8px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 5px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+nav ul li a:hover{
+    color:green;
+}
+h1{
+    text-align: left;
+    color: blue;
+    
+}
+div img{
+    width: 500px;
+    text-align: center;
+    height: 100%;
+}
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contenedor de la receta */
+.recipe-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen de la receta */
+.recipe-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+}
+
+/* Títulos */
+.recipe-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #1900ff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.recipe-container h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #666;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+.recipe-container p {
+    text-align: center;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Ingredientes */
+.recipe-container h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #1900ff;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.recipe-container ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.recipe-container ul li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 8px;
+    position: relative;
+    line-height: 1.8;
+}
+
+.recipe-container ul li::before {
+    content: '•';
+    color: #1900ff;
+    font-size: 1.5rem;
+    position: absolute;
+    left: -20px;
+}
+
+/* Preparación */
+.recipe-container ol {
+    padding-left: 20px;
+    margin-top: 10px;
+    list-style: decimal;
+}
+
+.recipe-container ol li {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+/* Botón de llamada a la acción (opcional) */
+.action-button {
+    display: inline-block;
+    background-color: #1900ff;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+
+footer{
+    background-color: black;
+}
+
+footer ul{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+}
+footer ul li{
+    padding: 20px;
+}
+footer ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+footer ul li a:hover{
+    color:green;
+}
+
+
+
+
+
